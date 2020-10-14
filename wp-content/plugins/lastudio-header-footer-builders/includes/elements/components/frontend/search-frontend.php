@@ -59,7 +59,7 @@ function lahfb_search( $atts, $uniqid, $once_run_flag ) {
 
         $dynamic_style .= lahfb_styling_tab_output( $atts, 'Search Form', '#lastudio-header-builder .search_' . esc_attr( $uniqid ). ' > .lahfb-search-form-box,.header-search-full-wrap,.main-slide-toggle #header-search-modal, .main-slide-toggle #header-search-modal .header-search-content,#lastudio-header-builder .search_' . esc_attr( $uniqid ). ' > .header-search-simple-wrap' );
 
-        $dynamic_style .= lahfb_styling_tab_output( $atts, 'Search Form Input', '#lastudio-header-builder .search_' . esc_attr( $uniqid ). ' > .lahfb-search-form-box .search-text-box,#lastudio-header-builder .search_' . esc_attr( $uniqid ). ' > .header-search-simple-wrap .search-text-box,.header-search-full-wrap > form input,#header-search-modal .search-field' );
+        $dynamic_style .= lahfb_styling_tab_output( $atts, 'Search Form Input', '#lastudio-header-builder .search_' . esc_attr( $uniqid ). ' > .lahfb-search-form-box .search-text-box,#lastudio-header-builder .search_' . esc_attr( $uniqid ). ' > .header-search-simple-wrap .search-text-box,.header-search-full-wrap > form input,#header-search-modal .search-text-box' );
         $dynamic_style .= lahfb_styling_tab_output( $atts, 'Full Page Search', 'body .mfp-ready.mfp-bg.full-search' );
 
         $dynamic_style .= lahfb_styling_tab_output( $atts, 'Arrow', '#lastudio-header-builder .search_' . esc_attr( $uniqid ). ' > .lahfb-search-form-box:before' );
