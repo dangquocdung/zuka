@@ -1,0 +1,125 @@
+{
+  "sidebar-primary": {
+    "categories-3": {
+      "title": "Categories",
+      "count": 0,
+      "hierarchical": 0,
+      "dropdown": 0,
+      "classes": ""
+    },
+    "la-recent-posts-1": {
+      "title": "Recent Post",
+      "number": 4,
+      "show_date": true,
+      "classes": ""
+    },
+    "archives-2": {
+      "title": "",
+      "count": 0,
+      "dropdown": 0
+    },
+    "meta-2": {
+      "title": ""
+    },
+    "tag_cloud-1": {
+      "title": "Tags",
+      "count": 0,
+      "taxonomy": "post_tag",
+      "classes": ""
+    }
+  },
+  "sidebar-shop-filter": {
+    "la-price-filter-list-1": {
+      "title": "Price",
+      "text": "0|20\r\n20|40\r\n40|50\r\n50|60\r\n60|80\r\n80|100\r\n100",
+      "classes": "col-xs-12 col-sm-3"
+    },
+    "woocommerce_layered_nav-1": {
+      "title": "Brands",
+      "attribute": "brand",
+      "display_type": "list",
+      "query_type": "or",
+      "classes": "col-xs-12 col-sm-3"
+    },
+    "woocommerce_layered_nav-2": {
+      "title": "Color",
+      "attribute": "color",
+      "display_type": "swatches",
+      "query_type": "and",
+      "classes": "col-xs-12 col-sm-3"
+    },
+    "woocommerce_layered_nav-3": {
+      "title": "Size",
+      "attribute": "size",
+      "display_type": "list",
+      "query_type": "or",
+      "classes": "col-xs-12 col-sm-3"
+    }
+  },
+  "f-col-1": {
+    "text-6": {
+      "title": "",
+      "text": "<p class=\"margin-bottom-20\"><img class=\"alignnone size-full wp-image-2979\" src=\"https:\/\/zuka.la-studioweb.com\/wp-content\/uploads\/2018\/11\/logo.png\" alt=\"\" width=\"62\" height=\"60\" style=\"width=\"60px\"\"\/><\/p>\r\nInteger ut ligula quis lectus fringilla elementum porttitor sed est. Duis fringilla efficitur ligula sed lobortis.",
+      "filter": true,
+      "visual": true,
+      "classes": "margin-bottom-10"
+    }
+  },
+  "f-col-2": {
+    "nav_menu-3": {
+      "title": "Helful Link",
+      "nav_menu": 66,
+      "classes": ""
+    }
+  },
+  "f-col-3": {
+    "nav_menu-2": {
+      "title": "Company Link",
+      "nav_menu": 64,
+      "classes": ""
+    }
+  },
+  "f-col-4": {
+    "text-17": {
+      "title": "Openning Time",
+      "text": "<ul>\r\n<li>Monday - Saturday<\/li>\r\n<li>7:00 - 22:00<\/li>\r\n<li>Sunday<\/li>\r\n<li>9:00 - 20:00<\/li>\r\n<\/ul>",
+      "filter": true,
+      "visual": true,
+      "classes": ""
+    }
+  },
+  "f-col-5": {
+    "contact_info-1": {
+      "title": "Contact Info",
+      "phone": "(+612) 2531 5600",
+      "email": "info@la-studioweb.com",
+      "address": "Get direction",
+      "classes": "margin-bottom-0"
+    }
+  },
+  "f-col-6": {
+    "yikes_easy_mc_widget-2": {
+      "title": "MailChimp Signup Form",
+      "form_id": "1",
+      "form_description": "",
+      "submit_text": "Submit",
+      "classes": "easy_mc__style1"
+    },
+    "text-7": {
+      "title": "",
+      "text": "[la_social_link]",
+      "filter": true,
+      "visual": true,
+      "classes": "font-size-18"
+    }
+  },
+  "s-p-after-add-cart": {
+    "text-9": {
+      "title": "",
+      "text": "<a href=\"#\"><i class=\"fa fa-map-marker\"><\/i>Find store near you<\/a><a href=\"#\"><i class=\"fa fa-exchange\"><\/i>Delivery and return<\/a>",
+      "filter": true,
+      "visual": true,
+      "classes": ""
+    }
+  }
+}
