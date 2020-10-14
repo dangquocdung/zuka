@@ -126,7 +126,7 @@ function lahfb_search( $atts, $uniqid, $once_run_flag ) {
         $out .= '</div>';
     }
     elseif ( $type == 'simple' ) {
-        $out .= '<div class="header-search-simple-wrap">'.$search_form_html.'</div>';
+        $out .= '<div class="header-search-simple-wrap"></div>';
     }
     elseif ( $type == 'full' ) {
         $out .= '<div class="header-search-full-wrap"><p class="searchform-fly-text">'.LAHFB_Helper::render_string($text_before_form).'</p>'.$search_form_html.'</div>';
