@@ -102,8 +102,8 @@ function lahfb_search( $atts, $uniqid, $once_run_flag ) {
 
     $search_icon_html = '<i class="'.esc_attr(lahfb_rename_icon($search_icon)).'"></i>';
 
-    $search_form_html = '<form class="search-form" role="search" action="' . esc_url(home_url( '/' )) . '" method="get" >
-            <input autocomplete="off" name="s" type="text" class="search-field" placeholder="' . $placeholder_text . '">'. $extra_html .'
+    $search_form_html = '<form role="search" action="' . esc_url(home_url( '/' )) . '" method="get" >
+            <input autocomplete="off" name="s" type="text" class="search-text-box" placeholder="' . $placeholder_text . '">'. $extra_html .'
         </form>';
 
     // render
@@ -126,7 +126,7 @@ function lahfb_search( $atts, $uniqid, $once_run_flag ) {
         $out .= '</div>';
     }
     elseif ( $type == 'simple' ) {
-        $out .= '<div class="header-search-simple-wrap"></div>';
+        $out .= '<div class="header-search-simple-wrap">'.$search_form_html.'</div>';
     }
     elseif ( $type == 'full' ) {
         $out .= '<div class="header-search-full-wrap"><p class="searchform-fly-text">'.LAHFB_Helper::render_string($text_before_form).'</p>'.$search_form_html.'</div>';
